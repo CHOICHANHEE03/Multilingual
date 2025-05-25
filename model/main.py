@@ -25,7 +25,7 @@ canvas = tk.Canvas(main_window, width=400, height=400,bg="lightblue")
 canvas.pack(fill="both", expand=True)
 
 # 배경 이미지 설정 (Pillow 사용)
-bg_image = Image.open("배경.png")  # 이미지 저작권-작가 catalyststuff 출처 Freepik
+bg_image = Image.open("../images/배경.png")  # 이미지 저작권-작가 catalyststuff 출처 Freepik
 bg_image = bg_image.resize((400, 300)) 
 bg_image_tk = ImageTk.PhotoImage(bg_image, master=main_window)  # master 속성 사용
 
